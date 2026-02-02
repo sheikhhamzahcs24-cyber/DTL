@@ -1,30 +1,28 @@
 {
-    "builds": [
-        {
-            "src": "backend/main.py",
-            "use": "@vercel/python"
-        },
-        {
-            "src": "frontend/**",
-            "use": "@vercel/static"
-        }
-    ],
     "rewrites": [
         {
             "source": "/chat",
-            "destination": "/backend/main.py"
+            "destination": "/api/index.py"
         },
         {
             "source": "/mood",
-            "destination": "/backend/main.py"
+            "destination": "/api/index.py"
         },
         {
             "source": "/journal",
-            "destination": "/backend/main.py"
+            "destination": "/api/index.py"
         },
         {
             "source": "/history",
-            "destination": "/backend/main.py"
+            "destination": "/api/index.py"
+        },
+        {
+            "source": "/docs",
+            "destination": "/api/index.py"
+        },
+        {
+            "source": "/openapi.json",
+            "destination": "/api/index.py"
         },
         {
             "source": "/",
