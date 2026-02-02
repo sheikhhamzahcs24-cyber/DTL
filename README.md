@@ -1,3 +1,4 @@
+
 # Mental Health Companion Website
 
 A web-based mental health companion with facial expression tracking using MediaPipe Face Mesh 468, chat support, mood logging, and journaling features.
@@ -123,7 +124,7 @@ const API_BASE_URL = "http://localhost:8000"; // Change this if needed
 - `POST /mood` - Log mood (1-5 scale with optional note)
 - `POST /journal` - Save journal entry
 
+
 ## License
 
 This project is for educational purposes.
-
