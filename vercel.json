@@ -1,0 +1,24 @@
+{
+    "rewrites": [
+        {
+            "source": "/chat",
+            "destination": "/backend/main.py"
+        },
+        {
+            "source": "/mood",
+            "destination": "/backend/main.py"
+        },
+        {
+            "source": "/journal",
+            "destination": "/backend/main.py"
+        },
+        {
+            "source": "/history",
+            "destination": "/backend/main.py"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/frontend/$1"
+        }
+    ]
+}
