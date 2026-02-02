@@ -1,11 +1,12 @@
 import os
 import sys
 
-# Add backend to path so imports work
-sys.path.append(os.path.join(os.path.dirname(__file__), '../backend'))
+# Add project root to sys.path to allow importing backend module
+root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(root_dir)
 
 try:
-    from main import app
+    from backend.main import app
 except Exception as e:
     import traceback
     from fastapi import FastAPI
