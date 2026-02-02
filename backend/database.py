@@ -2,7 +2,14 @@ import sqlite3
 import datetime
 from typing import List, Dict
 
-DB_NAME = "mood_journal.db"
+import os
+
+# Use /tmp on Vercel because root is read-only
+if os.environ.get('VERCEL'):
+    DB_NAME = "/tmp/mood_journal.db"
+    print("Running on Vercel: Using /tmp/mood_journal.db")
+else:
+    DB_NAME = "mood_journal.db"
 
 def init_db():
     conn = sqlite3.connect(DB_NAME)
