@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face Tracking - Mental Health Companion</title>
+
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header class="site-nav">
+        <div class="nav-brand">Mental Health Companion</div>
+        <div style="display: flex; align-items: center;">
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="face.html" class="active">Face Tracking</a>
+                <a href="history.html">History</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="app">
+        <!-- face tracking section -->
+        <section id="face" class="face-section" style="margin-top: 40px;">
+            <div class="section-head">
+                <p class="eyebrow">Face Tracking</p>
+                <h2>Detect expressions to estimate mood</h2>
+                <p class="muted">Your video stays on-device. No uploads happen.</p>
+            </div>
+
+            <div class="face-grid">
+                <div class="video-wrapper">
+                    <video id="video" autoplay muted playsinline width="640" height="480"></video>
+                    <canvas id="overlay" width="640" height="480" style="position: absolute;"></canvas>
+                </div>
+
+                <div class="face-stats">
+                    <div class="stat-line"><strong>Detected mood:</strong> <span id="detected-mood">Neutral</span></div>
+                    <div class="stat-line"><strong>Confidence:</strong> <span id="expression-cues">Waiting for
+                            camera...</span></div>
+                    <div class="stat-note">Let in light for best results.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div>Not a substitute for professional help. In crisis, contact emergency services.</div>
+        <div class="footer-links">
+            <a href="index.html#hero">Top</a>
+            <a href="index.html#chat">Chat</a>
+            <a href="face.html">Face tracking</a>
+        </div>
+    </footer>
+
+    <!-- face-api.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js/dist/face-api.min.js"></script>
+    <script src="app.js?v=5"></script>
+</body>
+
+</html>

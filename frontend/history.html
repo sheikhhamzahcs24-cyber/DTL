@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History - Mental Health Companion</title>
+
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header class="site-nav">
+        <div class="nav-brand">Mental Health Companion</div>
+        <div style="display: flex; align-items: center;">
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="face.html">Face Tracking</a>
+                <a href="history.html" class="active">History</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="app">
+        <!-- history section -->
+        <section id="history" class="history-section" style="margin-top: 40px;">
+            <div class="section-head">
+                <p class="eyebrow">History</p>
+                <h2>Your Journey</h2>
+                <p class="muted">Review your mood trends and journal reflections.</p>
+            </div>
+
+            <div class="history-controls">
+                <div class="tabs">
+                    <button class="tab-btn active" data-filter="all">All Entries</button>
+                    <button class="tab-btn" data-filter="mood">Mood Logs</button>
+                    <button class="tab-btn" data-filter="journal">Journal Entries</button>
+                </div>
+                <button id="load-history-btn" class="secondary-btn">Refresh</button>
+            </div>
+
+            <div id="history-list" class="history-list"></div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div>Not a substitute for professional help. In crisis, contact emergency services.</div>
+        <div class="footer-links">
+            <a href="index.html#hero">Top</a>
+            <a href="index.html#chat">Chat</a>
+            <a href="face.html">Face tracking</a>
+        </div>
+    </footer>
+
+    <!-- No face-api needed here, just logic -->
+    <script src="app.js?v=4"></script>
+</body>
+
+</html>

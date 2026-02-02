@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mental Health Companion</title>
+
+    <link rel="stylesheet" href="styles.css?v=3">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header class="site-nav">
+        <div class="nav-brand">Mental Health Companion</div>
+        <div style="display: flex; align-items: center;">
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="face.html">Face Tracking</a>
+                <a href="history.html">History</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero section -->
+    <section id="hero" class="hero">
+        <div class="hero-text">
+            <p class="eyebrow">Wellness Companion</p>
+            <h1>Supportive check-ins, gentle chat, and mood from your expressions.</h1>
+            <p class="subhead">
+                Real-time facial expression cues using advanced AI (face-api.js), plus chat, mood logging, and
+                journaling.
+                Not a substitute for professional care—reach out to local services if you're in crisis.
+            </p>
+            <div class="hero-actions">
+                <a href="#chat" class="btn primary">Start chatting</a>
+                <a href="face.html" class="btn ghost">Full face tracking</a>
+            </div>
+        </div>
+
+        <!-- Live Mood Card -->
+        <div class="live-mood-card">
+            <div class="card-header">Live Mood Signal</div>
+            <h2 id="hero-mood">Neutral</h2>
+            <p id="hero-cues" class="confidence">Waiting for camera...</p>
+            <p class="instruction">Allow camera access to begin expression tracking.<br>Nothing leaves your browser.</p>
+
+            <!-- Hidden video for processing -->
+            <div style="position: absolute; opacity: 0; pointer-events: none; height: 0; width: 0; overflow: hidden;">
+                <video id="video" autoplay muted playsinline width="640" height="480"></video>
+                <canvas id="overlay" width="640" height="480"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- features section -->
+    <section id="features" class="features">
+        <div class="feature-card">
+            <h3>Expression sensing</h3>
+            <p>Advanced AI detects happy, sad, angry, surprised, fearful, disgusted, and neutral expressions.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Supportive chat</h3>
+            <p>Crisis-aware responses with clear safety guidance and empathetic prompts.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Mood + journal</h3>
+            <p>Quick mood logging plus daily journaling to reflect on how you feel.</p>
+        </div>
+    </section>
+
+    <main id="app">
+        <!-- chat section -->
+
+        <!-- chat section -->
+        <section id="chat" class="chat-section">
+            <div class="section-head">
+                <p class="eyebrow">Chat</p>
+                <h2>Supportive conversation</h2>
+                <p class="muted">Not clinical advice. If you are in crisis, contact local emergency services.</p>
+            </div>
+
+            <div id="chat-log" class="chat-log"></div>
+
+            <div class="chat-input">
+                <input id="chat-message" type="text" placeholder="Share what's on your mind">
+                <button id="send-btn">Send</button>
+            </div>
+        </section>
+
+        <!-- mood check-in section -->
+        <section id="mood" class="mood-section">
+            <div class="section-head">
+                <p class="eyebrow">Mood Check-in</p>
+                <h2>Log how you feel</h2>
+                <p class="muted">Quick 1–5 scale plus an optional note.</p>
+            </div>
+
+            <div class="mood-row">
+                <button class="mood-btn" data-mood="1">1</button>
+                <button class="mood-btn" data-mood="2">2</button>
+                <button class="mood-btn" data-mood="3">3</button>
+                <button class="mood-btn" data-mood="4">4</button>
+                <button class="mood-btn" data-mood="5">5</button>
+            </div>
+
+            <input id="mood-note" type="text" placeholder="Add a short note (optional)">
+            <button id="log-mood-btn">Log Mood</button>
+            <div id="mood-status" class="status"></div>
+        </section>
+
+        <!-- journal section -->
+        <section id="journal" class="journal-section">
+            <div class="section-head">
+                <p class="eyebrow">Journal</p>
+                <h2>Reflect in writing</h2>
+                <p class="muted">Capture thoughts with a quick daily note.</p>
+            </div>
+
+            <textarea id="journal-entry" placeholder="Write a few lines about your day..."></textarea>
+
+            <div class="row">
+                <button id="save-journal-btn">Save Entry</button>
+                <div id="journal-status" class="status"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div>Not a substitute for professional help. In crisis, contact emergency services.</div>
+        <div class="footer-links">
+            <a href="#hero">Top</a>
+            <a href="#chat">Chat</a>
+            <a href="face.html">Face tracking</a>
+        </div>
+    </footer>
+
+    <!-- face-api.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js/dist/face-api.min.js"></script>
+    <script src="app.js?v=4"></script>
+</body>
+
+</html>

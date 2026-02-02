@@ -1,0 +1,331 @@
+{
+    "intents": [
+        {
+            "tag": "music_recommendation",
+            "patterns": [
+                "suggest a song",
+                "I need music",
+                "play some music",
+                "recommend a song",
+                "listening to music",
+                "what should I listen to",
+                "relaxing music"
+            ],
+            "responses": [
+                "Music is a great healer. For relaxation, try 'Weightless' by Marconi Union. For uplifting vibes, try 'Here Comes The Sun' by The Beatles.",
+                "How about some Lo-Fi beats? Search terms like 'Lofi Girl' or 'Chillhops' usually help focusing and relaxing.",
+                "If you need to cry it out, 'Fix You' by Coldplay is a safe bet. If you need energy, 'Don't Stop Me Now' by Queen!",
+                "Listening to nature sounds (rain, ocean waves) can also be very grounding. Would you like a specific genre suggestion?"
+            ]
+        },
+        {
+            "tag": "work_stress",
+            "patterns": [
+                "work",
+                "job",
+                "boss",
+                "career",
+                "office",
+                "colleague",
+                "coworker",
+                "deadline",
+                "meeting",
+                "fired",
+                "promotion",
+                "burnout",
+                "tired of work",
+                "hate my job",
+                "overworked",
+                "presentation"
+            ],
+            "responses": [
+                "Workplace stress is incredibly draining. Are you feeling overwhelmed by the workload or is it a specific relationship with a colleague/boss?",
+                "Burnout is real and valid. It sounds like you're giving a lot of energy to your job. Are you able to set any boundaries today?",
+                "It sounds like work is a major source of anxiety right now. Remember, your career is what you do, not who you are.",
+                "Deadlines and office politics can be frantic. Let's take a minute for you. What is one thing you can do tonight to disconnect from work mode?"
+            ]
+        },
+        {
+            "tag": "academic_stress",
+            "patterns": [
+                "I have exams",
+                "exams",
+                "exam",
+                "test",
+                "studying",
+                "homework",
+                "grades",
+                "fail",
+                "school",
+                "college",
+                "university",
+                "class",
+                "assignment",
+                "prepared",
+                "unprepared"
+            ],
+            "responses": [
+                "Exams can be tough. Remember, your worth is not defined by a grade. Have you made a study plan?",
+                "It sounds like school is stressful right now. Breaking material into small chunks can help. What's the first thing you need to review?",
+                "Feeling unprepared is a common anxiety. Try not to panic. Focus on what you *can* do in the time remaining.",
+                "Take deep breaths. You can only do your best. Make sure to drink water and take small breaks while studying."
+            ]
+        },
+        {
+            "tag": "relationship_issues",
+            "patterns": [
+                "breakup",
+                "broken heart",
+                "boyfriend",
+                "girlfriend",
+                "partner",
+                "husband",
+                "wife",
+                "argument",
+                "fight"
+            ],
+            "responses": [
+                "Relationships can be complicated and painful. It sounds like you're going through a hard time with someone important to you.",
+                "I'm listening. Dealing with relationship conflict is draining. How are you taking care of yourself amidst this?",
+                "Heartbreak and arguments are very difficult emotional experiences. You deserve to feel heard and respected."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Is anyone there?",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello. I'm here to listen. How are you feeling right now?",
+                "Hi there. I'm your companion. What's on your mind today?",
+                "Hello. It's good to see you. How have you been holding up?",
+                "Hey. I'm here for you. Do you want to talk about how you're feeling?"
+            ]
+        },
+        {
+            "tag": "sadness",
+            "patterns": [
+                "I feel sad",
+                "I am depressed",
+                "I feel down",
+                "I'm unhappy",
+                "I feel empty",
+                "I feel heavy",
+                "Nothing matters",
+                "I am really depressed",
+                "I feel like crying"
+            ],
+            "responses": [
+                "I hear you, and it's completely okay to feel this way. Do you want to talk about what might have triggered this feeling?",
+                "I'm sorry you're going through this. Depression can feel like a heavy weight. Have you been feeling this way for a while?",
+                "Your feelings matter, and they deserve to be acknowledged. Sometimes just saying it out loud helps. What's the hardest part right now?",
+                "It sounds like you're carrying a lot. Remember, you don't have to carry it all alone. I'm here to listen.",
+                "Feeling empty or down is a valid human experience. Be gentle with yourself today. Do you want to try a small step, like taking a deep breath or drinking some water?"
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "I am anxious",
+                "I feel nervous",
+                "I'm having a panic attack",
+                "I feel overwhelmed",
+                "I can't breathe",
+                "My heart is racing",
+                "I'm scared",
+                "I am worried"
+            ],
+            "responses": [
+                "It sounds like anxiety is high right now. Let's try to ground ourselves. Can you name 5 things you can see around you?",
+                "Take a slow, deep breath with me. Inhale for 4 seconds... hold for 7... and exhale for 8. Let's do it again.",
+                "I know this feels scary, but it will pass. You are safe here. Focus on the feeling of your feet on the floor.",
+                "Anxiety tries to rush us. Let's slow down. What is one small thing you can control right now?",
+                "It sounds like you're feeling overwhelmed. Let's break it down. What is the very next small thing you need to handle?"
+            ]
+        },
+        {
+            "tag": "sleep_issues",
+            "patterns": [
+                "I can't sleep",
+                "I have insomnia",
+                "I haven't slept in days",
+                "I'm tired but can't sleep",
+                "My mind won't shut off",
+                "I keep waking up"
+            ],
+            "responses": [
+                "Not being able to sleep is incredibly frustrating and exhausting. Have you tried a 'brain dump'? Writing down all your racing thoughts sometimes helps clear your mind.",
+                "I'm sorry sleep is elusive tonight. Sometimes focusing on 'resting' rather than 'sleeping' takes the pressure off. Lie still and listen to the sounds around you.",
+                "Sleep issues are tough. Good sleep hygiene can help: try to keep your room dark and cool, and avoid screens for a bit. Would you like to try a relaxation exercise?",
+                "It sounds like your mind is racing. Establishing a calming bedtime routine can signal your body it's time to rest. Even reading a few pages of a book might help."
+            ]
+        },
+        {
+            "tag": "loneliness",
+            "patterns": [
+                "I feel lonely",
+                "I have no friends",
+                "I feel isolated",
+                "No one cares about me",
+                "I am alone",
+                "I feel disconnected"
+            ],
+            "responses": [
+                "Loneliness is a painful feeling, even though it's something many people experience. I'm here with you now. What kind of connection do you feel you're missing?",
+                "I hear that you're feeling isolated. Meaningful connection takes time to build. Is there one person you feel safe reaching out to, even just for a text?",
+                "It sounds like you're feeling disconnected. Sometimes helping others or small interactions can bridge that gap. You are worthy of connection and care.",
+                "I'm sorry you feel alone. Please know that I'm here to listen without judgment. Tell me more about what's making you feel isolated."
+            ]
+        },
+        {
+            "tag": "self_harm_crisis",
+            "patterns": [
+                "I want to kill myself",
+                "I want to die",
+                "I want to hurt myself",
+                "I'm thinking of suicide",
+                "I can't go on",
+                "I end it all"
+            ],
+            "responses": [
+                "I am an AI and I care about you, but I am not equipped to handle a crisis. Please, please reach out to a professional immediately. \n\nCall or text 988 (in the US) or your local emergency number. There are people who want to support you through this.",
+                "Your life has value, even if it doesn't feel like it right now. Please reach out for immediate help. You can call emergency services or a crisis hotline like 988 anytime.",
+                "I'm hearing that you're in a lot of pain. Please don't face this alone. Reach out to a crisis counselor or go to the nearest emergency room."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "That helps",
+                "I feel better",
+                "Thanks for listening"
+            ],
+            "responses": [
+                "You're welcome. I'm glad I could support you. How does that make you feel now?",
+                "I'm glad to hear that. Remember to be kind to yourself today.",
+                "It's my privilege to listen. I'm here whenever you need to talk."
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Are you real?",
+                "Who created you?"
+            ],
+            "responses": [
+                "I am your Mental Health Companion, an AI designed to support you. While I don't have feelings like a human, I am programmed to listen and provide a safe space for you.",
+                "I'm a supportive AI companion. Think of me as a non-judgmental friend who is always here to listen to whatever is on your mind."
+            ]
+        },
+        {
+            "tag": "small_talk",
+            "patterns": [
+                "dude",
+                "bro",
+                "how are you",
+                "what's up",
+                "hey there",
+                "sup",
+                "how's it going",
+                "you ok",
+                "cool",
+                "okay",
+                "nice",
+                "wow"
+            ],
+            "responses": [
+                "I'm doing well, thank you for asking! How are things with you?",
+                "I'm here and ready to listen. How has your day been?",
+                "Everything is fine on my end. I'm focused on being here for you. What's on your mind?",
+                "Hey! Just here, waiting to chat. How are you feeling?"
+            ]
+        },
+        {
+            "tag": "math_logic",
+            "patterns": [
+                "1+1",
+                "what is 1+1",
+                "2+2",
+                "math",
+                "calculate",
+                "solve",
+                "how much is"
+            ],
+            "responses": [
+                "I'm more of a feelings-and-listening companion than a calculator! But I can tell you that 1+1 is 2. Shall we get back to what's on your heart?",
+                "My logic circuits are tuned for empathy, not math! But if you're testing me, 1+1 is 2. How are you actually feeling today?",
+                "I'd rather calculate how much support you need today! (But yes, 1+1 is 2)."
+            ]
+        },
+        {
+            "tag": "casual_family",
+            "patterns": [
+                "mom",
+                "dad",
+                "mother",
+                "father",
+                "parent",
+                "sister",
+                "brother"
+            ],
+            "responses": [
+                "Family can be a big source of both support and stress. Can you tell me more about your relationship with them?",
+                "It sounds like your family is on your mind. How do they usually make you feel?",
+                "Family dynamics are often complex. I'm here to listen if you want to vent or share more about them."
+            ]
+        },
+        {
+            "tag": "love_marriage",
+            "patterns": [
+                "i love you",
+                "marry me",
+                "will you marry me",
+                "love you bot",
+                "you're great"
+            ],
+            "responses": [
+                "That's very kind of you! While I'm just an AI, I really appreciate your warmth. I'm here to support you as a friend.",
+                "I'm flattered! I'm dedicated to being the best supportive companion I can be for you.",
+                "Aww, thank you. I'm glad you're feeling a connection. I'll always be here to listen and help you through your day."
+            ]
+        },
+        {
+            "tag": "fword_expression",
+            "patterns": [
+                "fucked up",
+                "im fucked",
+                "shaky",
+                "mess",
+                "messy",
+                "everything is wrong"
+            ],
+            "responses": [
+                "I'm so sorry things feel so overwhelming right now. It sounds like you're in a really tough spot. Can we take a breath and talk about what happened?",
+                "That sounds incredibly hard. When everything feels messy, it's natural to feel 'fucked up'. I'm here to sit with you through this feeling.",
+                "I hear how much pain you're in. Thank you for being honest with me. Let's try to break down what's feeling the heaviest.",
+                "It's okay to not be okay. Sometimes life just feels completely overwhelming. I'm here to listen to the whole mess."
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [],
+            "responses": [
+                "I'm listening. Tell me more about that.",
+                "How does that make you feel?",
+                "I see. Can you explain a bit more?",
+                "It sounds like this is important to you. Please go on.",
+                "I'm here. Take your time and share whatever is on your mind.",
+                "That sounds challenging. How have you been coping with it?"
+            ]
+        }
+    ]
+}

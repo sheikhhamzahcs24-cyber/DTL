@@ -1,0 +1,610 @@
+{
+    "intents": [
+        {
+            "tag": "period_pain",
+            "patterns": [
+                "I have period pain",
+                "My periods are painful",
+                "I'm having menstrual cramps",
+                "Period cramps are killing me",
+                "I'm on my period and it hurts",
+                "Having bad period pain",
+                "Menstrual pain is unbearable",
+                "Period cramps r really bad",
+                "My period hurts so much",
+                "Cramps are terrible",
+                "Time of the month pain",
+                "Period pain relief",
+                "Help with period pain",
+                "What to do for cramps"
+            ],
+            "responses": [
+                "I'm sorry you're going through this pain. Period cramps are very real and valid. Try applying a heating pad to your lower abdomen - warmth can really help relax the muscles. Have you tried that?",
+                "Period pain can be so tough. You're strong for dealing with this every month. Some things that might help: drink warm water, take ibuprofen if you can, and try gentle stretching. Would you like some specific yoga poses for cramp relief?",
+                "I hear you, and your pain is valid. Many find relief through: 1) Heat therapy (hot water bottle/heating pad), 2) Light exercise like walking, 3) Chamomile tea. Remember to rest when your body needs it. You're doing great! ❤️",
+                "Dealing with period pain takes real strength. Try this: lie on your back, pull your knees to your chest, and rock gently side to side. This can help ease the cramping. Also, stay hydrated! Want to hear a calming playlist suggestion?",
+                "Period cramps are no joke! Here's what can help: massage your lower back, use a heating pad, avoid caffeine and salty foods. You could also try the 'Child's Pose' yoga position. Take care of yourself - you deserve comfort and rest! 💜"
+            ]
+        },
+        {
+            "tag": "period_support",
+            "patterns": [
+                "I'm on my period",
+                "Having my period",
+                "That time of month",
+                "Feeling hormonal",
+                "PMS is bad",
+                "Period mood swings",
+                "Feeling emotional on period"
+            ],
+            "responses": [
+                "It's completely normal to feel more emotional during your period. Your feelings are valid! Be gentle with yourself, eat something comforting, and know that this phase will pass. You're handling it well! 🌸",
+                "Hormonal changes can really affect mood. Remember: it's okay to not be okay right now. Rest if you need to, cry if you want to, and treat yourself with kindness. Would you like some relaxing music suggestions?",
+                "What you're feeling is so normal and valid. During this time, your body is working hard. Practice extra self-care: warm baths, your favorite snacks, cozy blankets. You've got this! 💕"
+            ]
+        },
+        {
+            "tag": "music_sad",
+            "patterns": [
+                "I'm feeling sad",
+                "Recommend some music",
+                "Songs for bad mood",
+                "Music to cheer me up",
+                "I need music",
+                "Songs for depression",
+                "Music for anxiety",
+                "Calm music please",
+                "Relaxing songs",
+                "Want to listen to music"
+            ],
+            "responses": [
+                "Music can be so healing! Here are some calming playlists to try:\n\n🎵 For Calm & Peace:\n- 'Weightless' by Marconi Union (scientifically proven to reduce anxiety!)\n- Ludovico Einaudi's piano pieces\n- Sigur Rós ambient tracks\n\nSearch 'peaceful piano' or 'ambient relaxation' on Spotify/YouTube! 🎧",
+                "Let music lift your spirits! Try these mood-boosting songs:\n\n☀️ Feel-Good Vibes:\n- 'Three Little Birds' - Bob Marley\n- 'Here Comes the Sun' - The Beatles  \n- 'Happy' - Pharrell Williams\n\nOr search 'happy indie' or 'uplifting acoustic' playlists! 🎶",
+                "Music therapy is powerful! Based on your mood:\n\n🌙 For Sadness/Reflection:\n- Lo-fi hip hop beats (search 'lofi girl')\n- Classical: Debussy, Chopin\n- Nature sounds with soft music\n\n💪 For Motivation:\n- 'Eye of the Tiger' - Survivor\n- 'Stronger' - Kelly Clarkson\n\nPick what resonates with you right now! 🎵"
+            ]
+        },
+        {
+            "tag": "yoga_request",
+            "patterns": [
+                "I want to do yoga",
+                "Yoga for stress",
+                "Yoga poses for anxiety",
+                "Simple yoga for beginners",
+                "Yoga for relaxation",
+                "Suggest some yoga",
+                "Yoga exercises",
+                "How to do yoga",
+                "Yoga for mental health",
+                "Calming yoga poses"
+            ],
+            "responses": [
+                "Wonderful! Yoga is amazing for mental wellness. Here are 3 simple poses for stress relief:\n\n🧘 1. Child's Pose (Balasana)\n- Kneel, sit on heels, fold forward\n- Arms extended or at sides\n- Breathe deeply for 1-2 min\n\n🧘 2. Cat-Cow Stretch\n- On hands and knees\n- Arch back (cow), then round it (cat)\n- Repeat 5-10 times with breath\n\n🧘 3. Legs-Up-The-Wall\n- Lie on back, legs straight up against wall\n- Stay 5-10 minutes\n- Perfect for calming!\n\nStart slow, listen to your body! 🌿",
+                "Great choice! Here's a quick 5-minute calming sequence:\n\n✨ Easy Yoga for Mind Relief:\n\n1. Seated Forward Bend (1 min)\n   - Sit, legs straight, reach for toes\n   \n2. Seated Twist (30 sec each side)\n   - Sit cross-legged, twist gently\n   \n3. Corpse Pose (3 min)\n   - Lie flat, arms at sides\n   - Focus on breathing\n\nSearch 'Yoga with Adriene - Stress Relief' on YouTube for guided practice! 🙏",
+                "Yoga for the mind is beautiful! Try this restorative sequence:\n\n🌸 Gentle Yoga Flow:\n\n• Mountain Pose (grounding) - 1 min\n• Forward Fold (letting go) - 1 min  \n• Bridge Pose (energy) - 30 sec\n• Happy Baby (playfulness) - 1 min\n• Savasana (rest) - 5 min\n\nRemember: yoga is about feeling, not perfection! 💜"
+            ]
+        },
+        {
+            "tag": "breathing_exercise",
+            "patterns": [
+                "Breathing exercises",
+                "How to breathe for anxiety",
+                "Calm breathing technique",
+                "Deep breathing",
+                "Pranayama",
+                "Breath work",
+                "Help me breathe",
+                "Breathing for stress",
+                "Teach me breathing"
+            ],
+            "responses": [
+                "Let's do a simple breathing exercise together:\n\n🌬️ 4-7-8 Breathing (Dr. Andrew Weil's technique):\n\n1. Breathe IN through nose for 4 counts\n2. HOLD breath for 7 counts  \n3. Breathe OUT through mouth for 8 counts\n\nRepeat 4 times. This activates your relaxation response!\n\nReady? Let's breathe together... Inhale (1,2,3,4)... Hold (1,2,3,4,5,6,7)... Exhale slowly (1,2,3,4,5,6,7,8) 🌊",
+                "Breathing can instantly calm your nervous system! Try this:\n\n💨 Box Breathing (used by Navy SEALs!):\n\n• Breathe IN - 4 seconds\n• HOLD - 4 seconds\n• Breathe OUT - 4 seconds  \n• HOLD - 4 seconds\n\nRepeat 5 times. Imagine tracing a box as you breathe!\n\nHow do you feel? 🧘",
+                "Here's a quick calming breath:\n\n🌸 Belly Breathing:\n\n1. Place hand on belly\n2. Breathe in deep through nose (belly rises)\n3. Breathe out slowly through mouth (belly falls)\n4. Repeat for 2 minutes\n\nFocus only on the gentle rise and fall. You're safe. You're okay. 💙"
+            ]
+        },
+        {
+            "tag": "self_care",
+            "patterns": [
+                "I need self care",
+                "What is self care",
+                "Self care ideas",
+                "How to take care of myself",
+                "Self love tips",
+                "Feeling burnt out",
+                "Need a break"
+            ],
+            "responses": [
+                "Self-care isn't selfish - it's necessary! Here are quick ideas:\n\n💆 Physical: Take a warm bath, moisturize skin, stretch\n💭 Mental: Journal, meditate, say positive affirmations  \n❤️ Emotional: Call a friend, watch a comfort show, cry if needed\n🎨 Creative: Color, cook, dance to your favorite song\n\nWhat sounds good right now? 🌻",
+                "You deserve care and kindness! Try these:\n\n🌿 5-Minute Self-Care:\n- Light a candle\n- Make your favorite tea\n- Play calming music\n- Take 5 deep breaths\n- Say: 'I am enough'\n\nSelf-care is anything that makes YOU feel recharged! 🌟"
+            ]
+        },
+        {
+            "tag": "sleep_support",
+            "patterns": [
+                "I can't sleep",
+                "Insomnia",
+                "Can't fall asleep",
+                "Sleep problems",
+                "Trouble sleeping",
+                "How to sleep better",
+                "Tired but can't sleep",
+                "Sleep anxiety",
+                "Help me sleep",
+                "Bedtime routine"
+            ],
+            "responses": [
+                "Sleep troubles can be so frustrating. Let's try some sleep hygiene tips:\n\n😴 Wind-Down Routine (1 hour before bed):\n• Dim the lights\n• Put phone away (blue light disrupts sleep)\n• Take a warm shower\n• Read a book (not a screen!)\n• Try the 4-7-8 breathing\n\nYour bedroom should be: cool, dark, and quiet. You've got this! 🌙",
+                "Can't sleep? Here's a calming bedtime sequence:\n\n🌛 Sleep Ritual:\n\n1. Herbal tea (chamomile, lavender) - 30 min before\n2. Gentle stretches - 5 minutes\n3. Journal your thoughts - clear your mind\n4. Progressive muscle relaxation - tense and release each muscle\n5. Listen to sleep sounds (rain, ocean waves)\n\nAvoid screens 1 hour before bed! Sweet dreams 💫",
+                "Insomnia is tough. Try the '10-3-2-1-0' Rule:\n\n⏰ 10 hours before: No more caffeine\n⏰ 3 hours before: No heavy meals\n⏰ 2 hours before: No work/stress\n⏰ 1 hour before: No screens\n⏰ 0: Number of times you hit snooze!\n\nAlso: keep your sleep schedule consistent, even on weekends. Your body loves routine! 🛏️"
+            ]
+        },
+        {
+            "tag": "panic_attack",
+            "patterns": [
+                "I'm having a panic attack",
+                "Can't breathe",
+                "Heart is racing",
+                "Feel like dying",
+                "Chest feels tight",
+                "Panic attack help",
+                "Feel scared",
+                "Everything feels unreal",
+                "Dizzy and scared",
+                "Panic mode"
+            ],
+            "responses": [
+                "I'm here with you. You're safe. This will pass. Let's use the 5-4-3-2-1 grounding technique:\n\n👀 Name 5 things you SEE\n🤚 Name 4 things you can TOUCH\n👂 Name 3 things you HEAR\n👃 Name 2 things you SMELL\n👅 Name 1 thing you TASTE\n\nBreathe slowly: In for 4, hold for 4, out for 4. You're doing great. This is temporary. 💙",
+                "Right now, let's slow things down together:\n\n🌊 Panic SOS:\n\n1. Find a comfortable spot to sit\n2. Place both feet flat on the ground\n3. Put one hand on your chest, one on belly\n4. Breathe deeply - feel your belly rise\n5. Say: 'I am safe. This will pass.'\n\nPanic attacks are scary but NOT dangerous. Your body is trying to protect you. You're going to be okay. ❤️",
+                "You're experiencing fight-or-flight, but you're not in real danger. Here's what to do:\n\n✋ STOP the spiral:\n• Splash cold water on face (activates calming response)\n• Hold an ice cube\n• Name your fear out loud: 'This is just anxiety'\n• Text a trusted friend: 'Having a panic attack, I'm okay'\n\nRemember: This peaked and will now decrease. Ride the wave. You're stronger than you think! 🌟"
+            ]
+        },
+        {
+            "tag": "affirmations",
+            "patterns": [
+                "I need motivation",
+                "Positive affirmations",
+                "Feel worthless",
+                "I'm not good enough",
+                "Hate myself",
+                "Need encouragement",
+                "Say something nice",
+                "Boost my confidence",
+                "Feel like a failure",
+                "Self love"
+            ],
+            "responses": [
+                "You ARE enough, exactly as you are right now. Here are affirmations to repeat:\n\n✨ Daily Mantras:\n\n• 'I am worthy of love and belonging'\n• 'My best is good enough'\n• 'I am growing and learning every day'\n• 'I choose to be kind to myself'\n• 'I am not my mistakes'\n\nSay these in the mirror every morning. You're doing better than you think! 💖",
+                "Let me remind you of your strength:\n\n🌟 You Are:\n\n✓ Brave for showing up today\n✓ Strong for facing your struggles\n✓ Worthy of all good things\n✓ Capable of amazing things\n✓ Deserving of kindness (especially from yourself)\n\nBad days don't cancel out your progress. You matter. Your feelings matter. YOU matter. 🌈",
+                "When negative thoughts appear, counter them:\n\n💭 'I'm a failure' → 'I'm learning and that's courageous'\n💭 'Nobody likes me' → 'I am worthy of genuine connection'\n💭 'I can't do this' → 'I can take one small step'\n\nYour inner critic is loud, but it's not always right. You're doing your best in a difficult world. That's heroic! 🦸"
+            ]
+        },
+        {
+            "tag": "social_anxiety",
+            "patterns": [
+                "Social anxiety",
+                "Scared of people",
+                "Don't know what to say",
+                "Awkward in social situations",
+                "Feel lonely",
+                "Making friends is hard",
+                "Nobody likes me",
+                "Conversation tips",
+                "Afraid to talk",
+                "Feel left out"
+            ],
+            "responses": [
+                "Social anxiety is so common - you're not alone! Here are gentle tips:\n\n🗣️ Conversation Starters:\n\n• Ask questions! 'What do you like to do for fun?'\n• Comment on surroundings: 'This place is nice!'\n• Share something small: 'I'm really into [hobby] lately'\n• Compliment genuinely: 'I like your [item]'\n\nMost people are nervous too! They'll appreciate you initiating. You're braver than you know! 🌻",
+                "Making friends takes time and courage. Start small:\n\n👥 Friend-Building Steps:\n\n1. Smile and make eye contact (shows openness)\n2. Join a club/group with shared interests\n3. Be a good listener - ask follow-up questions\n4. Suggest low-pressure hangouts: 'Want to get coffee?'\n5. Be patient with yourself!\n\nQuality > Quantity. One good friend beats 100 acquaintances. Keep showing up! 💚",
+                "You're not awkward - you're authentic! Try these:\n\n💬 In-The-Moment Tips:\n\n• It's okay to say 'I need a moment' and step away\n• Silence is normal, not something to fear\n• Share how you feel: 'I'm a bit shy at first'\n• Focus on the other person, not your anxiety\n• Remember: everyone's focused on themselves, not judging you\n\nYou deserve connection. You deserve friendship. And you WILL find your people! 🌟"
+            ]
+        },
+        {
+            "tag": "journaling",
+            "patterns": [
+                "Journaling ideas",
+                "How to journal",
+                "Writing therapy",
+                "Journal prompts",
+                "What to write about",
+                "Express my feelings",
+                "Process emotions",
+                "Gratitude journal",
+                "Brain dump",
+                "Thought journaling"
+            ],
+            "responses": [
+                "Journaling is powerful for mental health! Here are prompts to get started:\n\n📝 Journal Prompts:\n\n• What am I grateful for today? (even tiny things)\n• What emotion am I feeling right now, and why?\n• What went well today?\n• What's one thing I learned about myself?\n• If I could tell my younger self one thing, what would it be?\n\nNo rules - just write! Even 5 minutes helps. 🌿",
+                "Let's explore different journaling styles:\n\n✍️ Types to Try:\n\n🌅 Morning Pages: 3 pages of stream-of-consciousness (brain dump!)\n🙏 Gratitude Log: List 3 good things daily\n😊 Emotion Tracker: Rate your mood + note why\n🎯 Goal Journal: Small wins + future dreams\n💭 Letter Writing: Write to yourself, someone else, or your emotions\n\nPick what resonates! No judgment, just honest expression. 💜",
+                "Journaling for healing:\n\n🌸 Therapeutic Writing:\n\n1. **Acknowledgment**: 'Today I feel...' (name the emotion)\n2. **Exploration**: 'I think I feel this way because...'\n3. **Compassion**: 'What I need right now is...'\n4. **Action**: 'One small thing I can do for myself is...'\n\nEnd with: 'I am proud of myself for...'\n\nRelease what's in your head onto paper. It doesn't have to make sense. Just let it flow! 📖✨"
+            ]
+        },
+        {
+            "tag": "exam_stress",
+            "patterns": [
+                "Exam stress",
+                "Test anxiety",
+                "Can't study",
+                "Failing my exams",
+                "Too much homework",
+                "Academic pressure",
+                "Study burnout",
+                "Exam tomorrow",
+                "Can't concentrate on studies",
+                "Scared of failing",
+                "Study anxiety",
+                "School stress"
+            ],
+            "responses": [
+                "Exam stress is so real! Let's break it down into manageable steps:\n\n📚 Study Strategy:\n\n• Pomodoro Technique: Study 25 min, break 5 min\n• Study hardest subject FIRST (when brain is fresh)\n• Teach the material to someone (or pretend to!)\n• Practice questions > reading notes\n• Sleep 7-8 hours before exam (crucial!)\n\nYou've got this! One topic at a time. 💪",
+                "Test anxiety? Here's your pre-exam toolkit:\n\n✅ Night Before:\n• Organize materials (no morning panic!)\n• Light review, then STOP\n• Relaxing activity (shower, music)\n• Early to bed\n\n✅ Morning Of:\n• Healthy breakfast\n• Arrive early (rushing increases anxiety)\n• 4-7-8 breathing before you start\n• Read instructions TWICE\n\nYour worth ≠ your grade. You're prepared! 🌟",
+                "Feeling overwhelmed by academics? Try the 'Brain Dump' method:\n\n🧠 Overwhelm Buster:\n\n1. Write EVERYTHING you need to do\n2. Circle only what's due in next 48 hours\n3. Pick ONE thing to do right now\n4. Set timer for 20 minutes\n5. Just START (perfection comes later!)\n\nProgress > Perfection. Even 20 minutes is SOMETHING! You're doing better than you think. 📖✨"
+            ]
+        },
+        {
+            "tag": "procrastination",
+            "patterns": [
+                "I'm procrastinating",
+                "Can't get started",
+                "No motivation",
+                "Feeling lazy",
+                "Can't focus",
+                "Distracted all the time",
+                "Don't want to do anything",
+                "Stuck in bed",
+                "No energy",
+                "How to stop procrastinating",
+                "Motivation tips"
+            ],
+            "responses": [
+                "Procrastination is usually about fear, not laziness! Let's tackle it:\n\n⚡ Anti-Procrastination Hacks:\n\n• 5-Minute Rule: Just do 5 minutes (often you'll keep going!)\n• Break task into TINY steps (open document = step 1!)\n• Remove distractions (phone in another room)\n• Set a specific time: 'At 3pm, I will...'\n• Reward yourself AFTER (not before!)\n\nStart ugly. Start small. Just START! 🚀",
+                "No motivation? Try these energy boosters:\n\n💪 Motivation Kickstarters:\n\n🌅 Morning: Cold shower (instant energy!)\n🎵 Music: Upbeat playlist while working\n☀️ Sunlight: Go outside for 10 min\n💧 Hydrate: Drink water (dehydration = fatigue)\n🏃 Move: 5 jumping jacks (wakes up brain!)\n\nMotivation follows action, not the other way around. Move first, feel motivated second! 🔥",
+                "Stuck in a procrastination spiral? Use the 'Why → What → When' method:\n\n🎯 Get Unstuck:\n\n❓ WHY am I avoiding this?\n(Fear of failure? Too big? Boring?)\n\n❓ WHAT is the tiniest first step?\n(Not 'write essay' → 'Open Google Docs')\n\n❓ WHEN will I do this tiny step?\n('Today at 2pm for 10 minutes')\n\nYou don't need to feel like it. You just need to DO it. Future you will thank present you! 🌟"
+            ]
+        },
+        {
+            "tag": "grief_support",
+            "patterns": [
+                "Someone died",
+                "I lost someone",
+                "Dealing with death",
+                "Grief",
+                "Mourning",
+                "Loss of loved one",
+                "Pet died",
+                "Can't stop crying",
+                "Missing someone who died",
+                "How to cope with loss",
+                "Grieving"
+            ],
+            "responses": [
+                "I'm so sorry for your loss. Grief is one of the hardest things we experience. Please know:\n\n💙 Grief Truths:\n\n• There's no 'right' way to grieve\n• Crying is healing, not weakness\n• Grief isn't linear (good days + bad days = normal)\n• You can grieve AND still laugh sometimes\n• The love you shared never dies\n\nBe gentle with yourself. Take it one moment at a time. You don't have to 'be strong.' 🕊️",
+                "Loss is overwhelming. Here's how to move through it (not over it):\n\n🌿 Gentle Grief Care:\n\n• Let yourself feel EVERYTHING (anger, guilt, sadness - all valid)\n• Talk about them (memory = honoring them)\n• Keep routines (eating, sleeping, basic care)\n• Accept help from others\n• No timeline - grief takes as long as it takes\n\nYour person mattered. Your pain matters. You will carry them in your heart forever. ❤️",
+                "When waves of grief hit:\n\n🌊 Riding the Wave:\n\n1. Don't fight it - let the tears flow\n2. Say their name out loud\n3. Look at photos if it helps (or put them away if it's too much)\n4. Write them a letter\n5. Do something they loved (honor their memory)\n\nGrief is love with nowhere to go. You loved deeply, and that's beautiful. That person changed you forever - they're part of you now. 💜\n\n**If grief feels unbearable, please talk to a counselor. You don't have to carry this alone.**"
+            ]
+        },
+        {
+            "tag": "loneliness",
+            "patterns": [
+                "I feel so alone",
+                "No friends",
+                "Feeling isolated",
+                "Lonely",
+                "Nobody cares about me",
+                "I have no one",
+                "Feel disconnected",
+                "Alone all the time",
+                "Social isolation",
+                "Miss having friends"
+            ],
+            "responses": [
+                "Loneliness is painful, and I'm sorry you're feeling this way. You're not alone in feeling alone. Here's what can help:\n\n💙 Connection Steps:\n\n• Join a club/group with shared interests (instant common ground!)\n• Volunteer (helping others combats loneliness)\n• Reach out first (text someone: 'thinking of you')\n• Quality > Quantity (one real friend beats 100 acquaintances)\n• Be patient - friendships take time to build\n\nYou deserve connection. It will happen! 🌻",
+                "Feeling isolated? Let's work on this together:\n\n🌐 Breaking Isolation:\n\n1. Take small social risks (say hi to someone new)\n2. Online communities (Discord, Reddit groups for your interests)\n3. Regular spots (coffee shop, gym - familiar faces become friends)\n4. Be vulnerable (share something real - connection needs honesty)\n5. Remember: others feel lonely too and want friends!\n\nLoneliness is temporary. Connection is coming. 💚",
+                "When loneliness hits hard:\n\n🫂 Immediate Comfort:\n\n• Call/video chat family (even brief connection helps)\n• Pet videos (scientifically proven mood boost!)\n• Public places (library, café - around people but no pressure)\n• Self-compassion: 'I'm not broken, I'm just going through something hard'\n• Remember times you DID feel connected (it will come again)\n\nYou matter. Your presence in this world matters. Keep going! ❤️"
+            ]
+        },
+        {
+            "tag": "imposter_syndrome",
+            "patterns": [
+                "I'm a fraud",
+                "Don't deserve success",
+                "Everyone's better than me",
+                "Imposter syndrome",
+                "Feel like a fake",
+                "Not good enough",
+                "Luck not skill",
+                "They'll find out I'm not smart",
+                "Don't belong here",
+                "Fooling everyone"
+            ],
+            "responses": [
+                "Imposter syndrome means you're growing! Here's the truth:\n\n🎭 Reality Check:\n\n• You earned your place (luck didn't do your work for you!)\n• Everyone feels this way sometimes (even experts!)\n• Self-doubt ≠ lack of ability\n• Your brain focuses on what you don't know vs. what you DO know\n• Competent people doubt themselves; incompetent people don't!\n\nYou belong. You're capable. Keep going! 🌟",
+                "Feeling like a fraud? Try this reframe:\n\n💪 Flip the Script:\n\n❌ 'I'm fooling everyone' → ✅ 'I'm learning and adapting'\n❌ 'It was just luck' → ✅ 'I prepared and seized opportunity'\n❌ 'Everyone's better' → ✅ 'Everyone has different strengths'\n❌ 'I don't belong' → ✅ 'I'm exactly where I need to be to grow'\n\nKeep a 'wins folder' - save compliments, achievements. You ARE that good! 🏆",
+                "When imposter thoughts appear:\n\n✨ Anti-Imposter Actions:\n\n1. List 3 things you're actually good at (factual evidence!)\n2. Ask yourself: 'Would I say this to a friend?' (be as kind to you!)\n3. Share your feelings (saying it out loud weakens it)\n4. Remember: discomfort = growth zone\n5. Own your success: 'I worked hard and earned this'\n\nYou're not an imposter. You're a work in progress. We all are! 💎"
+            ]
+        },
+        {
+            "tag": "burnout",
+            "patterns": [
+                "Burnt out",
+                "Emotionally exhausted",
+                "Can't care anymore",
+                "So tired of everything",
+                "Running on empty",
+                "No energy left",
+                "Feel dead inside",
+                "Compassion fatigue",
+                "Life burnout",
+                "Everything feels pointless"
+            ],
+            "responses": [
+                "Burnout is a real mental health crisis. Let's address it:\n\n🔥 Burnout Recovery:\n\n🛑 STOP doing (even for a day):\n• Say no to new commitments\n• Cancel non-essentials\n• Ask for extensions if possible\n\n🌿 START doing:\n• Sleep (non-negotiable!)\n• Pleasurable activities (even if you 'don't feel like it')\n• Talk to someone\n\nBurnout didn't happen overnight; recovery won't either. Be patient with yourself! 💙",
+                "You've been giving too much with too little refilling. Here's your recovery plan:\n\n⚡ Energy Restoration:\n\n📅 Daily:\n• One thing just for YOU (10 min hobby, favorite show)\n• Early bedtime (burnout = exhausted brain)\n• Say 'I can't right now' to something\n\n📅 Weekly:\n• Full day OFF (no productivity! Rest IS productive!)\n• Nature time (proven to restore energy)\n• Connect with someone who fills you up\n\nYou can't pour from an empty cup. Fill yours FIRST! 💚",
+                "Burnout signals you've crossed your limits. Listen to it:\n\n🚨 Burnout SOS:\n\n• This is your body/mind saying 'STOP'\n• Resting isn't lazy - it's survival\n• You matter more than your productivity\n• Ask: 'What ONE thing can I let go of?'\n• Professional help is smart, not weak\n\n**If burnout persists, please see a counselor. This is serious!**\n\nYou deserve rest. You deserve care. You deserve to feel alive again! 🌈"
+            ]
+        },
+        {
+            "tag": "family_conflict",
+            "patterns": [
+                "Fight with parents",
+                "Family problems",
+                "Toxic family",
+                "Parents don't understand",
+                "Sibling issues",
+                "Family stress",
+                "Argument with family",
+                "Family doesn't support me",
+                "Home life is hard",
+                "Dysfunctional family"
+            ],
+            "responses": [
+                "Family conflict is so hard because you can't just 'leave'. Here's how to cope:\n\n👨‍👩‍👧 Family Survival:\n\n• Set boundaries (you can love them AND protect yourself)\n• Pick battles (save energy for important issues)\n• Find your calm space (room, outside, library)\n• Remember: their reaction is about THEM, not you\n• Build chosen family (friends who get you)\n\nYou're not responsible for fixing your family. Focus on your wellbeing! 💜",
+                "When family doesn't understand you:\n\n💬 Communication Tips:\n\n1. Use 'I feel...' statements (not 'You always...')\n2. Pick calm moments (not mid-argument)\n3. Be specific: 'When you say X, I feel Y'\n4. Accept they may not change (grieve the family you wish you had)\n5. Focus on YOUR growth, not theirs\n\nYou deserve to be heard and respected. If family can't give that, find it elsewhere! 🌟",
+                "Dealing with toxic family dynamics:\n\n🛡️ Protection Strategies:\n\n• Limited info (they don't need to know everything)\n• Gray rock method (boring responses to drama)\n• Physical distance when possible\n• Therapy (to process and heal)\n• Know: their toxicity ≠ your worth\n\nYour mental health > family expectations. It's okay to choose you! ❤️\n\n**If there's abuse, please reach out to a trusted adult or counselor.**"
+            ]
+        },
+        {
+            "tag": "comparison_jealousy",
+            "patterns": [
+                "Everyone's better than me",
+                "Jealous of friends",
+                "Comparing myself",
+                "Social media makes me feel bad",
+                "Why is everyone so successful",
+                "I'm behind everyone",
+                "Envy",
+                "Feel inadequate",
+                "Others have it better",
+                "Comparison trap"
+            ],
+            "responses": [
+                "Comparison is the thief of joy! Let's break this pattern:\n\n📱 Social Media Reality:\n\n• You're comparing your INSIDE to their OUTSIDE\n• People post highlights, not struggles\n• Their 'perfect life' is curated fiction\n• Unfollow/mute accounts that make you feel bad\n• Your journey ≠ their journey (different timelines!)\n\nFocus on YOUR growth, not their highlight reel! 🌱",
+                "Feeling behind? Remember:\n\n⏰ Timeline Truths:\n\n• Success isn't a race (there's no 'right' age for anything)\n• You're exactly where you need to be RIGHT NOW\n• Their chapter 20 ≠ your chapter 3\n• Slow progress is STILL progress\n• Your pace is perfect for YOU\n\n'Behind' is an illusion. You're on your own unique path! 🚶‍♀️✨",
+                "When jealousy strikes:\n\n💚 Jealousy → Inspiration:\n\n1. Name it: 'I feel jealous of X'\n2. Ask: 'What does this tell me about MY desires?'\n3. Use it: 'If they can, so can I!'\n4. Gratitude shift: List 3 things good in YOUR life\n5. Celebrate them: 'Their win doesn't erase my worth'\n\nJealousy shows you what you want. Now go get it! 💪"
+            ]
+        },
+        {
+            "tag": "mindfulness_meditation",
+            "patterns": [
+                "Mindfulness",
+                "How to meditate",
+                "Be present",
+                "Living in the moment",
+                "Meditation for beginners",
+                "Grounding techniques",
+                "Mindful breathing",
+                "Present moment awareness",
+                "Stop overthinking",
+                "Clear my mind"
+            ],
+            "responses": [
+                "Mindfulness brings you back to NOW. Let's try it:\n\n🧘 Simple Mindfulness (1 minute):\n\n1. Notice 3 things you SEE (colors, shapes)\n2. Notice 3 things you HEAR (distant, close)\n3. Notice 3 things you FEEL (feet on floor, air on skin)\n\nThat's it! You just practiced mindfulness. Do this anytime, anywhere! 🌿",
+                "Meditation for beginners:\n\n🕉️ Easy Meditation (5 min):\n\n• Sit comfortably, close eyes\n• Focus on breath (in... out...)\n• Mind wanders? NORMAL! Just notice, return to breath\n• No 'perfect' meditation exists\n• Even 30 seconds counts!\n\nApps: Headspace, Calm, Insight Timer (free!)\n\nConsistency > Duration. 5 min daily beats 1 hour monthly! ☮️",
+                "Stop overthinking with mindfulness:\n\n💭 Thought Management:\n\n• Label thoughts: 'That's just worry brain talking'\n• 5 senses check-in (grounds you in present)\n• One thing at a time (wash dishes = just wash dishes)\n• Accept thoughts (don't fight them, watch them pass)\n• Body scan (notice tension, release it)\n\nPast = memory. Future = imagination. NOW = only real moment! 🌟"
+            ]
+        },
+        {
+            "tag": "career_anxiety",
+            "patterns": [
+                "Career anxiety",
+                "What's my purpose",
+                "Job stress",
+                "Don't know what to do with my life",
+                "Future anxiety",
+                "Career confusion",
+                "Worried about job",
+                "Purpose crisis",
+                "What if I fail",
+                "Career pressure"
+            ],
+            "responses": [
+                "Career anxiety is normal in this uncertain world! Deep breath:\n\n💼 Career Clarity:\n\n• You don't need it all figured out (most people don't!)\n• Try things (internships, side projects)\n• Skills > specific job title\n• Careers aren't linear anymore (pivoting is normal!)\n• Your 20s = exploration phase\n\nYour career will evolve. Focus on next step, not entire staircase! 🪜",
+                "Worried about your future? Break it down:\n\n🎯 Purpose-Finding:\n\n❓ What do you enjoy? (even small things!)\n❓ What are you good at? (skills inventory)\n❓ What problems do you care about? (values)\n❓ What can you get paid for? (market)\n\nWhere these overlap = your direction! Purpose isn't found, it's built! 🛠️",
+                "Job stress overwhelming you?\n\n⚖️ Work-Life Balance:\n\n• Your job ≠ your identity\n• Boundaries: work stays at work\n• Bad job ≠ bad life (you can change it!)\n• Burnout is real - rest matters\n• Ask for help (manager, HR, mentor)\n\n**If workplace is toxic, start planning your exit. You deserve better!**\n\nYou're more than your productivity! 💙"
+            ]
+        },
+        {
+            "tag": "seasonal_depression",
+            "patterns": [
+                "Seasonal depression",
+                "Winter blues",
+                "Depressed in winter",
+                "Less energy in winter",
+                "Seasonal affective disorder",
+                "Dark days make me sad",
+                "Winter sadness",
+                "Lack of sunlight",
+                "Feel worse in winter"
+            ],
+            "responses": [
+                "Seasonal Affective Disorder (SAD) is real! Let's fight it:\n\n☀️ Light Therapy:\n\n• Get outside in AM (even 10 min!)\n• Sit by windows during day\n• Light therapy lamp (30 min/morning)\n• Keep curtains open\n• Vitamin D supplement (ask doctor)\n\nYour brain needs light like plants do! 🌞",
+                "Winter blues survival guide:\n\n❄️ SAD Strategies:\n\n🏃 Movement: Exercise boosts mood (even indoor walks!)\n🍊 Nutrition: Omega-3s, vitamin D\n📅 Routine: Consistent sleep/wake times\n🔥 Warmth: Cozy spaces (fires, blankets, tea)\n👥 Connection: Don't hibernate alone!\n\nSpring WILL come. This is temporary! 🌷",
+                "When dark days get you down:\n\n🌙 Seasonal Self-Care:\n\n• Plan fun things (give yourself something to look forward to!)\n• Hygge lifestyle (candles, comfort, coziness)\n• Accept it's harder (be gentler with yourself)\n• Track symptoms (helps you prepare next year)\n• Professional help if severe\n\n**If depression persists beyond seasons, please see a doctor!**\n\nYou're not weak. Your brain needs sunlight! 💛"
+            ]
+        },
+        {
+            "tag": "adhd_focus",
+            "patterns": [
+                "Can't focus",
+                "ADHD tips",
+                "So distracted",
+                "Productivity tips",
+                "Mind wanders",
+                "Concentration problems",
+                "Attention issues",
+                "Hyperfocus",
+                "Executive dysfunction",
+                "Brain fog"
+            ],
+            "responses": [
+                "Focus struggles are real! Whether ADHD or not, these help:\n\n🎯 Focus Hacks:\n\n• Body doubling (work alongside someone, even virtually)\n• Pomodoro: 25 min focus, 5 min wiggle break\n• Remove temptations (phone in another room!)\n• One task at a time (close extra tabs)\n• External brain (to-do list, timers, alarms)\n\nYour brain isn't broken, it just works differently! 🧠✨",
+                "ADHD-friendly productivity:\n\n⚡ Work WITH Your Brain:\n\n• Hard tasks when you have energy (don't fight fatigue!)\n• Break HUGE tasks into 2-min steps\n• Visible reminders (sticky notes everywhere!)\n• Rewards immediately after task\n• Accept 'good enough' vs perfect\n\nProductivity looks different for everyone! 🌈",
+                "When brain fog hits:\n\n🌫️ Clarity Boosters:\n\n1. Hydrate (dehydration = fog!)\n2. Move body (walk, stretch, jump)\n3. Fresh air (open window)\n4. Change environment (different room)\n5. Accept it (rest IS productive)\n\n**If focus issues severely impact life, consider ADHD screening!**\n\nYou're not lazy. Your brain just needs different strategies! 💪"
+            ]
+        },
+        {
+            "tag": "healthy_habits",
+            "patterns": [
+                "Build habits",
+                "Morning routine",
+                "Be consistent",
+                "How to stick to habits",
+                "Routine tips",
+                "Healthy lifestyle",
+                "Can't maintain habits",
+                "Break bad habits",
+                "Daily routine",
+                "Habit formation"
+            ],
+            "responses": [
+                "Building habits that stick:\n\n🔁 Habit Secrets:\n\n• Start TINY (1 pushup > 'get fit')\n• Stack habits (after coffee, I will...)\n• Track it (don't break the chain!)\n• Identity-based: 'I'm the type of person who...'\n• Forgive slips (1 missed day ≠ failure)\n\nHabits form through repetition, not motivation! 🌱",
+                "Morning routine that energizes:\n\n🌅 Ideal Morning:\n\n1. Same wake time (even weekends!)\n2. No phone for first 30 min\n3. Hydrate immediately (water by bed)\n4. Move body (stretch, walk)\n5. One thing for YOU (journal, read, music)\n\nWin the morning = win the day! ☀️",
+                "Breaking bad habits:\n\n🚫 Habit Replacement:\n\n• Identify trigger (bored → scroll phone)\n• Replace behavior (bored → do pushups)\n• Make bad habit hard (delete apps, hide triggers)\n• Make good habit easy (prep night before)\n• Be patient (21-66 days to form habit!)\n\nFocus on building good, not just stopping bad! 💚\n\n**Book rec: 'Atomic Habits' by James Clear**"
+            ]
+        },
+        {
+            "tag": "anger_management",
+            "patterns": [
+                "I'm so angry",
+                "Rage",
+                "Want to scream",
+                "Anger issues",
+                "Can't control anger",
+                "So frustrated",
+                "Want to punch something",
+                "Always angry",
+                "Angry all the time",
+                "How to manage anger",
+                "Feeling furious"
+            ],
+            "responses": [
+                "Anger is valid! It's telling you something needs to change. Here's how to express it healthily:\n\n😤 Anger Release:\n\n• Physical: Punch pillow, run, intense workout\n• Vocal: Scream into pillow, sing loudly, vent to friend\n• Creative: Angry journaling, tear paper, throw ice cubes\n• Pause: Count to 10, splash cold water, step away\n\nAnger isn't bad - it's how we handle it that matters! 🔥",
+                "When rage overwhelms you:\n\n🌋 Cooling Down:\n\n1. TIME OUT (leave the situation immediately)\n2. BREATHE (4-7-8 technique)\n3. MOVE (walk it off, literally)\n4. SPEAK: Use 'I feel angry because...' not 'You make me...'\n5. REVISIT when calm (you deserve to be heard!)\n\nAnger is a secondary emotion - what's underneath? Fear? Hurt? Powerlessness? 💭",
+                "Chronic anger affecting your life?\n\n🛠️ Long-Term Strategies:\n\n• Identify triggers (patterns help you prepare)\n• Address root causes (therapy helps!)\n• Assertiveness training (say needs before explosion)\n• Stress management (less stress = less anger)\n• Forgiveness work (for YOU, not them)\n\n**If anger feels uncontrollable or leads to violence, please seek professional help immediately!**\n\nYou deserve peace. Anger doesn't have to control you! 💚"
+            ]
+        },
+        {
+            "tag": "relationship_breakup",
+            "patterns": [
+                "Breakup",
+                "Relationship problems",
+                "Ex boyfriend",
+                "Ex girlfriend",
+                "Heartbreak",
+                "Toxic relationship",
+                "Should I break up",
+                "Getting over ex",
+                "Relationship anxiety",
+                "Unhealthy relationship",
+                "Moving on from ex"
+            ],
+            "responses": [
+                "Heartbreak is one of life's deepest pains. I'm so sorry. Here's how to heal:\n\n💔 Post-Breakup Survival:\n\n• NO CONTACT (delete number, unfollow - cold turkey!)\n• Feel EVERYTHING (cry, rage, grieve)\n• Lean on friends (don't isolate!)\n• Rediscover YOU (hobbies you gave up?)\n• Time heals, but you must actively process\n\nYou will love again. You will laugh again. This is temporary! 🌱",
+                "Wondering if relationship is toxic?\n\n🚩 Red Flags:\n\n• You feel small, not supported\n• Walking on eggshells\n• They control who you see/what you wear\n• Constant criticism\n• You're always apologizing\n• Gut says 'something's wrong'\n\nHealthy love = safe, respected, FREE to be yourself. You deserve that! 💕",
+                "Moving on is hard. Take these steps:\n\n🌈 Healing Timeline:\n\n📅 Week 1: Survival mode (cry, sleep, basic needs)\n📅 Month 1: Processing (journal, talk, feel)\n📅 Month 3: Rediscovering (new activities, reconnect with friends)\n📅 Month 6+: Thriving (dating yourself, growth, new you!)\n\nNo rush. Heal at YOUR pace. One day you'll wake up and it won't hurt as much. I promise! ❤️‍🩹"
+            ]
+        },
+        {
+            "tag": "overthinking_decisions",
+            "patterns": [
+                "Can't decide",
+                "Overthinking everything",
+                "Indecisive",
+                "Analysis paralysis",
+                "Can't make decisions",
+                "Overthinking",
+                "Stuck in my head",
+                "Too many what ifs",
+                "Decision anxiety",
+                "Fear of wrong choice",
+                "Ruminating"
+            ],
+            "responses": [
+                "Overthinking traps you in your head! Let's get you unstuck:\n\n🔄 Stop the Spiral:\n\n• Set a decision deadline (Decisions made > perfect unmade decisions!)\n• 10-10-10 Rule: How will this feel in 10 min, 10 months, 10 years?\n• Flip a coin (your gut reaction = your answer!)\n• Ask: 'What would I tell a friend?'\n• Remember: Most decisions aren't permanent!\n\nPerfect decisions don't exist. Good enough is GOOD ENOUGH! ✅",
+                "Decision-making simplified:\n\n🎯 The 2-Choice Method:\n\n1. List pros/cons (paper = clarity!)\n2. Check your BODY (which feels lighter?)\n3. Trial run (imagine choosing each - which brings relief?)\n4. Trust yourself (you know more than you think!)\n5. Decide and commit (second-guessing = more pain)\n\nYou've made THOUSANDS of decisions in your life. You've got this! 💪",
+                "Ruminating on the past or future?\n\n💭 Thought-Stopping:\n\n• Notice: 'I'm overthinking again'\n• Interrupt: Snap rubber band, change location\n• Redirect: 5-4-3-2-1 grounding\n• Action: Do ANYTHING else physically\n• Schedule: 'Worry time' (15 min only!)\n\nThoughts aren't facts. You control where your mind goes! 🧠✨"
+            ]
+        },
+        {
+            "tag": "financial_anxiety",
+            "patterns": [
+                "Money problems",
+                "Can't afford",
+                "Financial stress",
+                "Student debt",
+                "Broke",
+                "Money anxiety",
+                "Worried about money",
+                "Financial pressure",
+                "No money",
+                "Budgeting help",
+                "Poor"
+            ],
+            "responses": [
+                "Money stress is so real, especially as a student! Let's tackle this:\n\n💰 Financial First Steps:\n\n• Track spending (awareness = power!)\n• 50/30/20 Rule: 50% needs, 30% wants, 20% savings\n• Free resources: Library, student discounts, free events\n• Side income: Tutoring, freelance, campus jobs\n• Talk about it (shame keeps you stuck!)\n\nYour worth ≠ your bank account! 💚",
+                "Overwhelmed by student loans/debt?\n\n📊 Debt Management:\n\n• Income-based repayment plans (ask lender!)\n• Snowball method (pay smallest debts first = motivation!)\n• Automate (can't spend what's auto-saved!)\n• Free counseling (many schools offer financial advisors)\n• Remember: Debt is temporary, education is forever\n\nYou will get through this. Millions have! 🌟",
+                "When money anxiety keeps you up:\n\n🛡️ Financial Peace:\n\n• Separate facts from fear ('I'm broke' vs 'I have $X now')\n• Control what you CAN (spending, not economy)\n• Small wins (saved $1 today = WIN!)\n• Gratitude (roof, food, phone = you have essentials!)\n• Future you (investments in education/skills = highest ROI)\n\n**If truly struggling: food banks, student aid, campus resources are THERE FOR YOU!**\n\nAsking for help is strength, not weakness! ❤️"
+            ]
+        },
+        {
+            "tag": "crisis_support",
+            "patterns": [
+                "i want to die",
+                "i wnat to die",
+                "kill myself",
+                "suicide",
+                "hurt myself",
+                "end my life",
+                "no reason to live"
+            ],
+            "responses": [
+                "I'm really sorry you're feeling this way, brother. Please know that your life is precious.\nReach out to these India-specific helplines for immediate support:\n🆘 **Kiran Helpline (Govt):** 1800-599-0019 (24/7)\n🆘 **Tele MANAS (Govt):** 14416 or 1800-891-4416\n🚨 **Emergency Services:** 112 or 100\nYou are not alone in this."
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "who are you",
+                "who r u",
+                "what are you",
+                "your name",
+                "who made you",
+                "who created you"
+            ],
+            "responses": [
+                "I am your Mental Health Companion, an AI designed to support you.\nI was created by a dedicated team of developers for this project.\nMy goal is to provide a safe space and resources for Indian users.\nI'm here to support you, bro."
+            ]
+        },
+        {
+            "tag": "sadness_empathy",
+            "patterns": [
+                "i am sad",
+                "feeling down",
+                "i feel low",
+                "unhappy"
+            ],
+            "responses": [
+                "Your feelings matter, and they deserve to be acknowledged.\nSometimes just saying it out loud helps, I'm here to listen.\nWhat's the hardest part right now, bro? Can you tell me more?"
+            ]
+        }
+    ]
+}
