@@ -125,6 +125,14 @@ const API_BASE_URL = "http://localhost:8000"; // Change this if needed
 - `POST /journal` - Save journal entry
 
 
-## License
+## Deployment on Vercel
 
-This project is for educational purposes.
+1. **Push to GitHub**: Ensure your latest code is on GitHub.
+2. **Import Project**: Go to Vercel, import your repository.
+3. **Configure Project**:
+   - **Framework Preset**: Other (or None)
+   - **Root Directory**: `./` (default)
+4. **Environment Variables**:
+   Add the following variable in Vercel Project Settings:
+   - `GROQ_API_KEY`: (Your Groq API Key)
+5. **Deploy**: Click Deploy.
